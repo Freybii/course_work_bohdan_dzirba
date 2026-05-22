@@ -442,27 +442,31 @@ team override → global → enabled by default
 
 ## 📷 Приклади / скриншоти
 
-Скриншоти можна додати в папку:
+У папці `screenshots/` розміщені основні скриншоти інтерфейсу системи BidScop. Вони демонструють головну сторінку, панель керування, сторінку перегляду документів і календар із розкладом.
 
-```text
-/screenshots/
-```
+### Головна сторінка
 
-Рекомендовані зображення для README:
+На головній сторінці користувач бачить загальний опис системи, її призначення та основні можливості.
 
-- головна сторінка / landing page;
-- dashboard із проєктами;
-- сторінка створення проєкту;
-- сторінка завантаження документів;
-- результат AI-аналізу вимог;
-- сторінка адміністратора;
-- календар або schedule-view.
+![Головна сторінка](screenshots/main_page.png)
 
-Приклад вставки зображення:
+### Dashboard / панель керування
 
-```md
-![Dashboard](screenshots/dashboard.png)
-```
+Dashboard використовується для перегляду тендерних проєктів, їхніх статусів, дедлайнів і основної інформації для роботи з bids/walks.
+
+![Dashboard](screenshots/dashboard_page.png)
+
+### Сторінка перегляду документів
+
+Сторінка перегляду документів дає змогу перевіряти завантажені файли, переглядати результати аналізу та працювати з виявленими вимогами.
+
+![Сторінка перегляду документів](screenshots/document_review_page.png)
+
+### Calendar & Schedule
+
+Сторінка календаря та розкладу використовується для перегляду важливих дат, дедлайнів, bid date, pre-bid meetings та інших подій, пов’язаних із тендерними проєктами.
+
+![Calendar and Schedule](screenshots/calendar_&_schedule_page.png)
 
 ---
 
@@ -520,14 +524,3 @@ team override → global → enabled by default
 
 Проєкт є приватною навчальною/прикладною розробкою.  
 Повна версія коду не поширюється у відкритому доступі без дозволу автора.
-
----
-
-## Screenshots
-
-```md
-![Landing Page](screenshots/landing-page.png)
-![Dashboard](screenshots/dashboard.png)
-![Project Detail](screenshots/project-detail.png)
-![AI Analysis Result](screenshots/analysis-result.png)
-```
